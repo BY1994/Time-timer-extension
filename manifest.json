@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "example_chromeExtension",
-  "description": "Print Hello, World! message",
+  "name": "Time_timer_chromeExtension",
+  "description": "Time timer",
   "version": "1.0.0",
 
   "browser_action": {
