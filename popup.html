@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <head>
     <style>
-        BODY {width: 520px; min-height: 500px;}
+        BODY {width: 400px; min-height: 500px;}
+        input {background-color: #CCE8F4; border: none; width:50px; height: 30px;
+            font-size:25px; font-family:arial; text-align:center;
+            margin: 4px 4px;  vertical-align:middle;}
+        input:focus {border-bottom: 2px solid #2f5a69;}
+        button {background-color: #2f5a69; border: none; color:white;
+            padding: 8px 8px; margin: 4px 4px; cursor: pointer;  }
     </style>
     <script src="popup.js"></script>
 </head>
-<body>
-    <canvas id="canvas" width="400" height="400" style="background-color:#333"></canvas>
-    <p id="current_time">
-
-    </p>
+<body style="background-color:#CCE8F4">
+    <canvas id="canvas" width="400" height="400" style="background-color:#CCE8F4"></canvas>
+    <div style="text-align: center;">
+        <input type="text" id="current_time1" value="60">
+        :
+        <input type="text" id="current_time2" value="00">
+        <button type="submit" id="button">Start</button>
+    </div>
 </body>
 </html>
